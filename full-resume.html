@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preethi Naroju – Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .full-resume .main { max-width: 800px; }
+    .full-resume-print { display: none; margin-bottom: 1rem; }
+    @media print {
+      .sidebar, .full-resume-print, .no-print { display: none !important; }
+      .main { padding: 0; }
+      body { font-size: 11px; }
+    }
+  </style>
+</head>
+<body class="full-resume">
+  <div class="layout">
+    <aside class="sidebar no-print">
+      <div class="sidebar-avatar" aria-hidden="true">PN</div>
+      <ul class="sidebar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">About</a></li>
+        <li><a href="resume-summary.html">Resume</a></li>
+        <li><a href="resume.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <p class="full-resume-print">
+        <button type="button" onclick="window.print();" class="resume-print-btn">Save as PDF</button>
+        Use your browser's Print (Ctrl+P) and choose "Save as PDF" to download.
+      </p>
+
+      <h1 class="full-resume-title">Preethi Naroju</h1>
+      <p class="full-resume-contact">
+        <a href="mailto:preethi.naroju@example.com">preethi.naroju@example.com</a> | <a href="tel:+1234567890">(234) 567-8900</a> | <a href="https://linkedin.com/in/preethi-naroju" target="_blank" rel="noopener">LinkedIn</a> | <a href="index.html">Portfolio</a>
+      </p>
+
+      <div class="resume-block">
+        <h3>Professional Summary</h3>
+        <p class="bio-intro">
+          Business Analyst with experience in requirements analysis, process improvement, and Agile delivery. Skilled in user stories, use cases, process mapping, and stakeholder collaboration. I use Jira, Confluence, and SQL to support clear documentation and data-driven decisions.
+        </p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Experience</h3>
+
+        <div class="resume-item">
+          <div class="resume-item-head">
+            <strong>Business Analyst</strong>
+            <span class="resume-date">[Start – Present or End Date]</span>
+          </div>
+          <div class="resume-item-org">[Company Name]</div>
+          <ul>
+            <li>Elicited and documented business and functional requirements; created user stories, use cases, and acceptance criteria.</li>
+            <li>Facilitated workshops and stakeholder sessions to align on scope and priorities.</li>
+            <li>Supported Agile ceremonies: sprint planning, backlog refinement, and UAT coordination.</li>
+            <li>Used Jira and Confluence for requirements traceability and team documentation.</li>
+            <li>Performed process mapping and identified improvement opportunities.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <div class="resume-item-head">
+            <strong>Associate Business Analyst</strong>
+            <span class="resume-date">[Start – End Date]</span>
+          </div>
+          <div class="resume-item-org">[Company Name]</div>
+          <ul>
+            <li>Assisted in requirements gathering and documentation for multiple projects.</li>
+            <li>Supported data validation and reporting using SQL and Excel.</li>
+            <li>Coordinated UAT and tracked defects in Jira.</li>
+            <li>Maintained process flows and BRD/FRD updates.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <h3>Projects</h3>
+
+        <div class="resume-item">
+          <div class="resume-item-head"><strong>[Project Name]</strong></div>
+          <ul>
+            <li>Led requirements for [brief description]. Delivered user stories, process flows, and UAT support; collaborated with product and dev teams.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <div class="resume-item-head"><strong>[Project Name]</strong></div>
+          <ul>
+            <li>Supported analysis and documentation for [brief description]. Used Jira and Confluence for traceability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <h3>Core Skills</h3>
+        <p class="bio-intro" style="margin-bottom: 0.5rem;"><strong>Requirements:</strong> User stories, use cases, BRD/FRD, process mapping, acceptance criteria.</p>
+        <p class="bio-intro" style="margin-bottom: 0.5rem;"><strong>Tools:</strong> Jira, Confluence, SQL, Excel, Visio/Lucidchart (or equivalent).</p>
+        <p class="bio-intro" style="margin-bottom: 0.5rem;"><strong>Methods:</strong> Agile, Scrum, hybrid, UAT coordination.</p>
+        <p class="bio-intro" style="margin: 0;"><strong>Certifications:</strong> [List any certifications or leave as placeholder].</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Education</h3>
+        <p class="bio-intro" style="margin: 0;">[University] – [Degree] in [Major], [Year].</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

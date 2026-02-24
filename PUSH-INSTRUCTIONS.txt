@@ -1,0 +1,41 @@
+================================================================================
+  Push Preethi Naroju portfolio to GitHub
+  Repo: https://github.com/preethi-naroju/My-portfolio
+================================================================================
+
+OPTION A - Use the script (easiest)
+-----------------------------------
+1. Install Git for Windows if needed: https://git-scm.com/download/win
+2. Right-click in this folder → "Git Bash Here" (or open Git Bash and run):
+   cd "/c/Users/CSC/Downloads/Preethi Naroju"
+   bash push-to-github.sh
+3. If it asks for login: use your GitHub username and a Personal Access Token
+   (not your password). Create one: GitHub → Settings → Developer settings →
+   Personal access tokens → Generate new token (repo scope).
+
+OPTION B - Manual steps
+-----------------------------------
+1. Open Git Bash (or any terminal where "git" works).
+
+2. Clone the repo (one time):
+   cd /c/Users/CSC/Downloads
+   git clone https://github.com/preethi-naroju/My-portfolio.git
+   cd My-portfolio
+
+3. Copy your files into the clone:
+   - Copy EVERYTHING from:  C:\Users\CSC\Downloads\Preethi Naroju
+   - Paste into:            C:\Users\CSC\Downloads\My-portfolio
+   - Overwrite when asked.
+
+4. Commit and push:
+   git add .
+   git commit -m "Add Preethi Naroju portfolio site"
+   git push -u origin main
+
+   (If it says "branch 'main' doesn't exist", try:  git push -u origin master)
+
+5. If push asks for credentials:
+   - Username: your GitHub username (preethi-naroju)
+   - Password: use a Personal Access Token from GitHub (Settings → Developer settings → Personal access tokens).
+
+================================================================================
